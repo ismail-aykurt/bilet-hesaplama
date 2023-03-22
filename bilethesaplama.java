@@ -6,7 +6,6 @@ public class bilethesaplama {
         Scanner input=new Scanner(System.in);
         double mesafe=2.1,fiyat,yasindirimi=0,biletindirim;
         int yas,yolculukTipi,km;
-        System.out.println("Merhabalar İSMAİL TURİZM o bilet sayfasına hoşgeldiniz.\nLÜtfen aşağıdaki yerleri doldurunuz");
         System.out.print("Lütfen gideceğiniz yerin mesafesini(KM)olarak giriniz:");
         km=input.nextInt();
         System.out.print("Lütfen yaşınızı giriniz:");
